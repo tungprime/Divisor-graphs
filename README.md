@@ -7,9 +7,9 @@ This Git repository contains the code we developed to generate data and conduct 
 There are two main files, each dealing with different interpration of divisibility relation graphs (see Section 2.1 of the paper for the fact that these definitions are equivalent). 
 We refer the readers to the individual files for precise descriptions of their functionality. 
 
-1. A construction of $D_n$ using the factorization of $n$. 
+1. A construction of $D_n$ using the explicit factorization of $n$. 
    
-2. A construction of $D_n$ using the partially ordered set $S$ defined in Section 2.1. As expected, the code here runs faster as it does not have to deal with factoring large numbers. However, it comes with the cost of being less explicit.  
+2. A construction of $D_n$ using the partially ordered set $S$ defined in Section 2.1. As expected, the code in this file runs faster as it does not have to deal with factoring large numbers. However, it comes with the cost of being less explicit.  
 
 ## Description
 
